@@ -12,6 +12,11 @@
 		3714AA082407B2610076AA39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3714AA062407B2610076AA39 /* Main.storyboard */; };
 		3714AA0A2407B2700076AA39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3714AA092407B2700076AA39 /* Assets.xcassets */; };
 		3714AA0D2407B2700076AA39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3714AA0B2407B2700076AA39 /* LaunchScreen.storyboard */; };
+		3714AA1B2407B2B30076AA39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3714AA1A2407B2B30076AA39 /* AppDelegate.swift */; };
+		3714AA1D2407B2B30076AA39 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3714AA1C2407B2B30076AA39 /* ViewController.swift */; };
+		3714AA202407B2B30076AA39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3714AA1E2407B2B30076AA39 /* Main.storyboard */; };
+		3714AA252407B2B40076AA39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3714AA232407B2B40076AA39 /* LaunchScreen.storyboard */; };
+		3714AA2B2407B33F0076AA39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3714AA092407B2700076AA39 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,10 +27,23 @@
 		3714AA092407B2700076AA39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3714AA0C2407B2700076AA39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3714AA0E2407B2700076AA39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3714AA182407B2B30076AA39 /* Photo_Hut_Admin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Photo_Hut_Admin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3714AA1A2407B2B30076AA39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3714AA1C2407B2B30076AA39 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3714AA1F2407B2B30076AA39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3714AA242407B2B40076AA39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3714AA262407B2B40076AA39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		3714A9FC2407B2610076AA39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3714AA152407B2B30076AA39 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,7 +56,9 @@
 		3714A9F62407B2610076AA39 = {
 			isa = PBXGroup;
 			children = (
+				3714AA2A2407B3300076AA39 /* Shared */,
 				3714AA012407B2610076AA39 /* Photo_Hut */,
+				3714AA192407B2B30076AA39 /* Photo_Hut_Admin */,
 				3714AA002407B2610076AA39 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				3714A9FF2407B2610076AA39 /* Photo_Hut.app */,
+				3714AA182407B2B30076AA39 /* Photo_Hut_Admin.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -57,11 +78,30 @@
 				3714AA022407B2610076AA39 /* AppDelegate.swift */,
 				3714AA042407B2610076AA39 /* ViewController.swift */,
 				3714AA062407B2610076AA39 /* Main.storyboard */,
-				3714AA092407B2700076AA39 /* Assets.xcassets */,
 				3714AA0B2407B2700076AA39 /* LaunchScreen.storyboard */,
 				3714AA0E2407B2700076AA39 /* Info.plist */,
 			);
 			path = Photo_Hut;
+			sourceTree = "<group>";
+		};
+		3714AA192407B2B30076AA39 /* Photo_Hut_Admin */ = {
+			isa = PBXGroup;
+			children = (
+				3714AA1A2407B2B30076AA39 /* AppDelegate.swift */,
+				3714AA1C2407B2B30076AA39 /* ViewController.swift */,
+				3714AA1E2407B2B30076AA39 /* Main.storyboard */,
+				3714AA232407B2B40076AA39 /* LaunchScreen.storyboard */,
+				3714AA262407B2B40076AA39 /* Info.plist */,
+			);
+			path = Photo_Hut_Admin;
+			sourceTree = "<group>";
+		};
+		3714AA2A2407B3300076AA39 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				3714AA092407B2700076AA39 /* Assets.xcassets */,
+			);
+			path = Shared;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,6 +124,23 @@
 			productReference = 3714A9FF2407B2610076AA39 /* Photo_Hut.app */;
 			productType = "com.apple.product-type.application";
 		};
+		3714AA172407B2B30076AA39 /* Photo_Hut_Admin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3714AA272407B2B40076AA39 /* Build configuration list for PBXNativeTarget "Photo_Hut_Admin" */;
+			buildPhases = (
+				3714AA142407B2B30076AA39 /* Sources */,
+				3714AA152407B2B30076AA39 /* Frameworks */,
+				3714AA162407B2B30076AA39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Photo_Hut_Admin;
+			productName = Photo_Hut_Admin;
+			productReference = 3714AA182407B2B30076AA39 /* Photo_Hut_Admin.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -95,6 +152,9 @@
 				ORGANIZATIONNAME = "Md. Saiful Islam";
 				TargetAttributes = {
 					3714A9FE2407B2610076AA39 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					3714AA172407B2B30076AA39 = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
@@ -113,6 +173,7 @@
 			projectRoot = "";
 			targets = (
 				3714A9FE2407B2610076AA39 /* Photo_Hut */,
+				3714AA172407B2B30076AA39 /* Photo_Hut_Admin */,
 			);
 		};
 /* End PBXProject section */
@@ -128,6 +189,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3714AA162407B2B30076AA39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3714AA252407B2B40076AA39 /* LaunchScreen.storyboard in Resources */,
+				3714AA2B2407B33F0076AA39 /* Assets.xcassets in Resources */,
+				3714AA202407B2B30076AA39 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -137,6 +208,15 @@
 			files = (
 				3714AA052407B2610076AA39 /* ViewController.swift in Sources */,
 				3714AA032407B2610076AA39 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3714AA142407B2B30076AA39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3714AA1D2407B2B30076AA39 /* ViewController.swift in Sources */,
+				3714AA1B2407B2B30076AA39 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,6 +235,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				3714AA0C2407B2700076AA39 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3714AA1E2407B2B30076AA39 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3714AA1F2407B2B30076AA39 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3714AA232407B2B40076AA39 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3714AA242407B2B40076AA39 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -312,6 +408,40 @@
 			};
 			name = Release;
 		};
+		3714AA282407B2B40076AA39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Photo_Hut_Admin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "iosProject.Photo-Hut-Admin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3714AA292407B2B40076AA39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Photo_Hut_Admin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "iosProject.Photo-Hut-Admin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -329,6 +459,15 @@
 			buildConfigurations = (
 				3714AA122407B2700076AA39 /* Debug */,
 				3714AA132407B2700076AA39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3714AA272407B2B40076AA39 /* Build configuration list for PBXNativeTarget "Photo_Hut_Admin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3714AA282407B2B40076AA39 /* Debug */,
+				3714AA292407B2B40076AA39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
